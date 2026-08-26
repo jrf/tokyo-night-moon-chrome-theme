@@ -9,3 +9,6 @@
 *.crx
 *.pem
 *.zip
+
+# Chrome-generated theme cache
+Cached Theme.pak
