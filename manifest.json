@@ -1,0 +1,59 @@
+{
+  "manifest_version": 3,
+  "version": "1.0.7",
+  "name": "Tokyo Night Moon",
+  "description": "A dark, cool-toned Chrome theme based on the Tokyo Night Moon color palette.",
+  "icons": {
+    "16": "images/icon_16.png",
+    "48": "images/icon_48.png",
+    "128": "images/icon_128.png"
+  },
+  "theme": {
+    "images": {
+      "theme_ntp_background": "images/ntp_background.png"
+    },
+    "colors": {
+      "frame": [30, 32, 48],
+      "frame_inactive": [25, 27, 41],
+      "frame_incognito": [25, 27, 41],
+      "frame_incognito_inactive": [25, 27, 41],
+
+      "toolbar": [47, 51, 77],
+      "toolbar_text": [200, 211, 245],
+      "toolbar_button_icon": [130, 170, 255],
+
+      "background_tab": [30, 32, 48],
+      "background_tab_inactive": [30, 32, 48],
+      "background_tab_incognito": [30, 32, 48],
+      "background_tab_incognito_inactive": [30, 32, 48],
+
+      "tab_background_text": [130, 139, 184],
+      "tab_background_text_inactive": [130, 139, 184],
+      "tab_background_text_incognito": [130, 139, 184],
+      "tab_background_text_incognito_inactive": [130, 139, 184],
+
+      "tab_text": [200, 211, 245],
+
+      "bookmark_text": [200, 211, 245],
+
+      "omnibox_background": [34, 36, 54],
+      "omnibox_text": [200, 211, 245],
+
+      "ntp_background": [34, 36, 54],
+      "ntp_text": [200, 211, 245],
+      "ntp_link": [130, 170, 255],
+      "ntp_header": [130, 170, 255],
+
+      "button_background": [59, 66, 97],
+
+      "control_background": [47, 51, 77]
+    },
+    "tints": {
+      "buttons": [-1.0, -1.0, -1.0]
+    },
+    "properties": {
+      "ntp_background_alignment": "bottom",
+      "ntp_background_repeat": "no-repeat"
+    }
+  }
+}
